@@ -1,0 +1,28 @@
+{
+  "name": "qr_code_generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.0.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
